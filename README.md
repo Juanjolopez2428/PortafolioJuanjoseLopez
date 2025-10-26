@@ -46,20 +46,4 @@ portfolio/
 El formulario usa **Formspree** para enviar mensajes.
 Los mensajes enviados en el formulario llegan a mi correo vinculado Juanjolopez2428@gmail.com
 
-
-
-## 🚀 Despliegue
-
-Puedes publicar este sitio fácilmente en:
-
-* **GitHub Pages:**
-
-  * Sube tu repositorio.
-  * Entra a *Settings → Pages → Source* y selecciona la rama `main`.
-
-* **Netlify / Vercel:**
-
-  * Conecta tu cuenta de GitHub y elige el repositorio.
-  * Se desplegará automáticamente al detectar el archivo `index.html`.
-
----
+--
