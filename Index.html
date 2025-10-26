@@ -1,0 +1,131 @@
+<!doctype html>
+
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Juan Jose Lopez Garcia</title>
+  <meta name="description" content="Portfolio de Juan Jose Lopez Garcia.  about me, hobbies, Contact me." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home"> Juan Jose Lopez Garcia</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">☰</button>
+      <nav id="mainNav" class="nav">
+        <a href="#about">About</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Inicio -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Hola, soy <span class="accent">Juan Jose Lopez Garcia </span></h1>
+          <p class="lead">Estudiante de Ingenieria en Sistemas en formación, apasionado por la tecnología, el diseño y el aprendizaje constante.</p>
+          <p class="cta-row">
+            <a class="btn" href="#about">Sobre mí</a>
+            <a class="btn ghost" href="#contact">Contactarme</a>
+          </p>
+        </div>
+      </div>    
+    </section>
+
+```
+<!-- About You -->
+<section id="about" class="section">
+  <div class="container">
+    <h2>About</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p><strong>Quién soy:</strong> Soy Juan Jose Lopez Garcia, estudiante de Ingenieria en Sistemas con interés en el desarrollo web y la creación de interfaces intuitivas y funcionales.</p>
+        <p><strong>Educación:</strong> Estudiante de Pregrado Universidad EIA, En 2 Semestre.</p>
+        <p><strong>Habilidades:</strong> HTML, CSS, JavaScript, Git, diseño responsivo.</p>
+        <p><strong>Objetivo:</strong> Seguir aprendiendo y desarrollar proyectos que combinen creatividad, técnica y utilidad.</p>
+      </div>
+      <div class="about-photo">
+        <img src="images/6b8ede07-04be-4a11-8ad0-89fa95bdc5ef.jpg" alt="Foto profesional" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Hobbies -->
+<section id="hobbies" class="section alt">
+  <div class="container">
+    <h2>Hobbies</h2>
+    <p class="section-sub">Algunas de las actividades que disfruto en mi tiempo libre y que contribuyen a mi desarrollo personal.</p>
+
+    <div class="hobbies-grid">
+      <div class="hobby-card">
+        <img src="images/8871ede0-bee0-45a0-b62e-56c20d155278.jpg" alt="Hobby 1">
+        <h4>Futbol</h4>
+        <p>Es muy importante para mi puesto que es lo que mas ayuda a despejar mi mente y a sentirme tranquilo en muchos aspectos de mi vida</p>
+      </div>
+
+      <div class="hobby-card">
+        <img src="images/images (3).jpg" alt="Hobby 2">
+        <h4>Lectura</h4>
+        <p>Amo leer libros de crecimiento personal, me atrae la lectura sobre finanzas personales, me motiva a seguir creciendo como persona y el manejo de los recursos a mi disposicion</p>
+      </div>
+
+      <div class="hobby-card">
+        <div class="hobby-images">
+          <img src="images/9241c165-2e7f-4277-9462-275f41da390a.jpg" alt="Hobby 3">
+          <img src="images/c69525ce-5f51-42e4-a265-8d432d23fcac.jpg" alt="Hobby 3">
+        </div>
+        <h4>Viajar</h4>
+        <p>Me ayuda a pensar de una manera diferente a conectarme con la naturaleza y desconectarme del caos de la ciudad. </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section">
+  <div class="container contact-grid">
+    <div class="contact-info">
+      <h2>Contact Me</h2>
+      <p>Si quieres ponerte en contacto conmigo, puedes escribirme a:</p>
+      <p>Correo: <a href="Juan.Lopez68@eia.edu.co"> Juan.lopez68@eia.edu.co</a></p>
+      <p>GitHub: <a href="https://github.com/Juanjolopez2428" target="_blank" rel="noopener"> https://github.com/Juanjolopez2428</a></p>
+    </div>
+
+    <div class="contact-form-wrap">
+      <form id="contactForm" action="https://formspree.io/f/xdkpozlq" method="POST" class="contact-form">
+        <label for="name">Nombre</label>
+        <input id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit" class="btn">Enviar mensaje</button>
+        <p id="formStatus" class="form-status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+```
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Juan Jose Lopez — Portfolio</p>
+      <p><small>Hecho con HTML, CSS y JavaScript.</small></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
